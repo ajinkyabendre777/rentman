@@ -1,0 +1,6 @@
+[environments.rentman]
+url = "jdbc:postgresql://localhost:5432/rentman_local1"
+user = "postgres"
+password = "${localSecret.Flyway Desktop 858c7aef-3fb1-4ba7-a9de-1f53259781ad}"
+schemas = [ "rentman" ]
+displayName = "rentman_local1"
